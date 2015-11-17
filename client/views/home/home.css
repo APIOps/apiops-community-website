@@ -39,3 +39,31 @@
   color: #212121;
   margin-top: 2em;
 }
+
+dt.date {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+dd.title {
+  font-size: 16px;
+}
+
+.secondary-title {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.secondary-title-rss {
+  font-size: 18px;
+  background-color: #FFCC00;
+  padding: 2px;
+}
+
+hr.primary {
+  max-width: 9.12em;
+  border-color: #03A9F4;
+  border-width: 3px;
+  margin-bottom: 0;
+}
