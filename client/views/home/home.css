@@ -1,0 +1,41 @@
+.block-city {
+  padding: 40px;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: overlay;
+  -webkit-background-blend-mode: overlay;
+  -moz-background-blend-mode: overlay;
+  -o-background-blend-mode: overlay;
+  color: #fff;
+}
+
+.helsinki {
+  background: #666 url(helsinki.jpg) center center no-repeat;
+}
+
+.tampere {
+  background: #666 url(tampere.jpg) center center no-repeat;
+}
+
+.mikkeli {
+  background: #666 url(mikkeli.jpg) center center no-repeat;
+}
+
+.block-city h1 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 2;
+}
+
+.cities {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-heading {
+  color: #212121;
+  margin-top: 2em;
+}
