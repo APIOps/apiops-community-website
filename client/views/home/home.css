@@ -59,12 +59,27 @@ dd.title {
   font-size: 18px;
   background-color: #FFCC00;
   padding: 2px;
+  color: #fff;
+}
+
+.secondary-title-rss:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #E4B700;
 }
 
 .secondary-title-twitter {
   font-size: 18px;
-  background-color: skyblue;
+  background-color: #50ABF1;
   padding: 2px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.secondary-title-twitter:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1C9BFD;
 }
 
 hr.primary {
