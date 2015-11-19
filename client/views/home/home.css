@@ -67,3 +67,11 @@ hr.primary {
   border-width: 3px;
   margin-bottom: 0;
 }
+
+.block-city:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.block-city-link:hover {
+  text-decoration: none;
+}
