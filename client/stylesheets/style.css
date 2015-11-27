@@ -18,6 +18,12 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  background: url(/apiops_smth.png) no-repeat;
+  background-size: 35%;
+  background-position: 50% 140%;
+}
+
 .navbar-default .navbar-nav>li>a {
   color: #03A9F4;
   padding-top: 20px;
@@ -30,27 +36,24 @@ h1, h2, h3, h4, h5, h6{
 }
 
 header {
-  background-size: cover;
-  background-repeat: no-repeat;
   background-color: #E7F2FC;
 }
 
 .home_text{
-  padding-top: 100px;
-  padding-bottom: 180px;
+  padding-top: 50px;
+  padding-bottom: 260px;
 }
 
 .home_text h2 {
-  color: #010101;
+  color: #333;
   font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 13px;
 }
 
 .home_text p {
-  color: #404040;
-  font-size: 14px;
-  text-transform: uppercase;
+  color: #333;
+  font-size: 16px;
 }
 
 .single_image {
