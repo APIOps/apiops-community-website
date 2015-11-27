@@ -47,13 +47,13 @@ header {
 .home_text h2 {
   color: #333;
   font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 13px;
+  letter-spacing: 1px;
 }
 
 .home_text p {
-  color: #333;
-  font-size: 16px;
+  color: #777;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .single_image {
