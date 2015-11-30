@@ -1,17 +1,9 @@
-Meteor.startup(function () {
-  Meteor.call('getRss');
-});
-
 Meteor.methods({
   'getRss':function(){
     //console.log("Rss called");
     Rss.remove({});
     getRSS('http://apisuomi.fi/category/apiops/feed/');
   }
-});
-
-Meteor.publish('rss', function() {
-  return Rss.find({},{sort: {pubDate: -1}, limit: 5});
 });
 
 function getRSS(feedURL){
@@ -48,13 +40,3 @@ function getRSS(feedURL){
     }
   });
 }
-
-SyncedCron.add({
-  name: 'Get Latest News',
-  schedule: function(parser) {
-    return parser.text('every 1 day');
-  },
-  job: function() {
-    Meteor.call('getRss');
-  }
-});
