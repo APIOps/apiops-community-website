@@ -1,3 +1,11 @@
 .home_text .cs-btn {
   margin-top: 20px;
 }
+
+.welcome-block {
+  background: url(/apiops_smth.png) no-repeat;
+  background-size: 42%;
+  background-position: 50% 120%;
+  background-color: #E7F2FC;
+  width: 100% !important;
+}
