@@ -8,6 +8,10 @@ Router.map(function() {
     path: '/'
   });
 
+  this.route('codeOfConduct', {
+    path: '/code-of-conduct'
+  });
+
   this.route('notFound', {
     path: '*',
     where: 'server',
