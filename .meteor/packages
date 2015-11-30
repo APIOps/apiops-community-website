@@ -27,3 +27,4 @@ meteorhacks:npm
 npm-container
 http
 momentjs:moment
+percolate:synced-cron
