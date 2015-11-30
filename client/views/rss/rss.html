@@ -1,0 +1,12 @@
+<template name="rss">
+  <div style="margin-top:40px;">
+    <h3 class="secondary-title">Latest news <a href="http://apisuomi.fi/category/apiops/feed/" class="secondary-title-rss"><span>RSS</span></a></h3>
+    {{#each rss}}
+    <dl>
+      <dt class="date">{{fromNowRSS pubDate}}</dt>
+      <dd class="title"><a href="{{link}}"><p>{{title}}</p></a></dd>
+    </dl>
+    {{/each}}
+  </div>
+</template>
+
