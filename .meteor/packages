@@ -28,3 +28,4 @@ npm-container
 http
 momentjs:moment
 percolate:synced-cron
+zimme:active-route
