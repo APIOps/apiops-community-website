@@ -1,5 +1,6 @@
 Meteor.startup(function () {
   Meteor.call('getRss');
+  Meteor.call('getTwitter');
 });
 
 SyncedCron.add({
@@ -9,5 +10,6 @@ SyncedCron.add({
   },
   job: function() {
     Meteor.call('getRss');
+    Meteor.call('getTwitter');
   }
 });
