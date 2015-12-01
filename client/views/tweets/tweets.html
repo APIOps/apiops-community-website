@@ -1,9 +1,22 @@
-<template name="tweets">
-  <a class="twitter-timeline"
-     data-widget-id="667221583723933696"
-     href="https://twitter.com/apiops"
-     data-chrome="nofooter noborders"
-     data-tweet-limit="3">
-    Tweets by @apiops
-  </a>
+<template name="twitterfeed">
+  <div style="margin-top:40px;">
+    <h3 class="secondary-title">Twitter updates <a href="#" class="secondary-title-twitter"><span>@apiops</span></a></h3>
+    {{#each tweets}}
+    <div class="single-tweet-block">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0" class="tipstable">
+        <tbody><tr valign="top">
+          <td width="36px" style="padding: 2pt 7pt 1em 0">
+            <img src="{{avatar}}" width="36px" height="36px" border="0">
+          </td>
+          <td width="100%" style="padding-bottom: 1em">
+            <p>
+              <a href="https://twitter.com/apiops">@{{from}}</a> <span class="date" style="display: block;margin-bottom:0.3em">{{fromNowRSS created_at}}</span>{{text}}
+            </p>
+          </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    {{/each}}
+  </div>
 </template>
