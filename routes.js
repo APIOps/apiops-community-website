@@ -9,7 +9,19 @@ Router.map(function() {
   });
 
   this.route('codeOfConduct', {
-    path: '/code-of-conduct'
+    path: '/about/code-of-conduct'
+  });
+
+  this.route('about', {
+    path: '/about'
+  });
+
+  this.route('tools', {
+    path: '/about/tools'
+  });
+
+  this.route('manifesto', {
+    path: '/about/manifesto'
   });
 
   this.route('notFound', {
