@@ -1,0 +1,21 @@
+.about-title-block {
+  background-color: #E7F2FC;
+  width: 100% !important;
+}
+
+.about-title {
+  padding: 50px;
+}
+
+.sidebar .nav>li>a {
+  color: #03A9F4;
+  font-size: 1.1em;
+}
+
+.sidebar .nav>li>a:hover,
+.sidebar .nav>li>a:active {
+  color: #333;
+  font-weight: bold;
+  background-color: #fff;
+}
+

@@ -1,8 +1,16 @@
 <template name="about">
+  <div class="container about-title-block">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="about-title">
+          <h1 style="font-size: 2em;font-weight: bold;">About APIOps</h1>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container" style="margin-top: 3em;">
     <div class="row">
       <div class="col-md-9">
-        <h2 style="margin-top: 0;">About APIOps</h2>
         <p style="font-size:16px;">
           Standardization is about conformity, harmonization is about consistency. Both are needed in #API Economy and supported by APIOps. Harmonization cuts costs in integration and development, enables lower  learning curve for the API consumers, creates stability and increases  security, and enables automatisation in large scale API -driven systems. In other words we are talking about API orchestration and life cycle management, enabling seamless API networks.
         </p>
@@ -11,13 +19,13 @@
 
         <p style="font-size:16px;">Even though APItalists and APIOps developers are often different persons, they form a team which work in co-operation with the API consumers (3rd party developers). APItalist is the person responsible for API -strategy and has business value creation capabilities. API -strategy needs to be implemented and in that process APItalist uses API Model Canvas, which resembles  Lean Canvas, but is  focused on APIs. Canvas helps in identifying developers to reach out, business values, resources needed and inflow metrics. APIOps developers can rely on cocreated API Model Canvas  when putting it in code and automating API life cycle management with help of Design languages such as Swagger and RAML.</p>
       </div>
-      <div class="col-md-3">
-        <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
-          <ul class="nav bs-docs-sidenav">
+      <div class="col-md-3 sidebar">
+        <nav class="hidden-xs hidden-sm">
+          <ul class="nav">
             <li><span><strong>Information</strong></span></li>
-            <li><a href="{{isActivePath '/about/tools'}}">Tools</a></li>
-            <li><a href="{{isActivePath '/about/code-of-conduct'}}">Code of conduct</a></li>
-            <li><a href="{{isActivePath '/about/manifesto'}}">Manifesto</a></li>
+            <li class="{{isActivePath '/about/tools'}}"><a href="/about/tools">Tools</a></li>
+            <li class="{{isActivePath '/about/code-of-conduct'}}"><a href="/about/code-of-conduct">Code of conduct</a></li>
+            <li class="{{isActivePath '/about/manifesto'}}"><a href="/about/manifesto">Manifesto</a></li>
           </ul>
         </nav>
       </div>
