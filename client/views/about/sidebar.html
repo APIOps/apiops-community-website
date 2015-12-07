@@ -1,0 +1,12 @@
+<template name="sidebar">
+  <div class="col-md-3 sidebar">
+    <nav class="hidden-xs hidden-sm">
+      <ul class="nav">
+        <li><span style="font-size: 16px;"><strong>Information</strong></span></li>
+        <li class="{{isActivePath '/about/tools'}}"><a href="/about/tools">Tools</a></li>
+        <li class="{{isActivePath '/about/code-of-conduct'}}"><a href="/about/code-of-conduct">Code of conduct</a></li>
+        <li class="{{isActivePath '/about/manifesto'}}"><a href="/about/manifesto">Manifesto</a></li>
+      </ul>
+    </nav>
+  </div>
+</template>
